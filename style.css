@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+
+#image {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto 20px auto;
+    background-color: #8e6868;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.preview {
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <div>
+        <img class="preview" src="https://picsum.photos/id/1015/600/400" alt="Cảnh thiên nhiên sông núi" onmouseover="upDate(this)" onmouseout="undo()">
+        <img class="preview" src="https://picsum.photos/id/1016/600/400" alt="Vách núi hùng vĩ" onmouseover="upDate(this)" onmouseout="undo()">
+        <img class="preview" src="https://picsum.photos/id/1018/600/400" alt="Rừng cây và dòng suối" onmouseover="upDate(this)" onmouseout="undo()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
